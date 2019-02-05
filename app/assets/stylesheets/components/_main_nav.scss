@@ -1,0 +1,54 @@
+.upper-nav {
+display: flex;
+justify-content: space-between;
+padding: 5px;
+border-bottom: 1px solid black;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.left-nav > ul > li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 6px;
+  margin-right: 20px;
+}
+
+.right-nav > ul > li {
+  display: inline-block;
+  padding: 6px;
+  // float: right;
+
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background: $lightest-gray;
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+
+}
